@@ -1,0 +1,25 @@
+# ROOTファイルを除外
+*.root
+
+# 一時ファイルやログファイル
+*.log
+*.tmp
+
+# 出力ディレクトリ（例）
+output/
+results/
+data/
+
+# コンパイル時に生成されるファイル
+*.o
+*.so
+*.a
+*.d
+*.dSYM/
+
+# CMake関連の一時ファイル
+CMakeFiles/
+CMakeCache.txt
+*.root
+data/
+output/
